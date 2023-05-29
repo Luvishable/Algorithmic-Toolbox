@@ -26,7 +26,7 @@ def maxProduct_1(array):
 
 # 2) A better solution would be to sort the array in increasing order. If all the elements are positive return the
 # product of last two elements. Else multiply first two elements and last two elements; return the one greater.
-#  Time Complexity: O(nlog n), Auxiliary Space: O(1)
+# Time Complexity: O(nlog n), Auxiliary Space: O(1)
 def maxProduct_2(array):
     array.sort()
     num1 = 0
